@@ -22,3 +22,5 @@ var geocodeAddress = (address, callback) => {
 };
 
 module.exports.geocodeAddress = geocodeAddress;
+
+//    url : `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`,
